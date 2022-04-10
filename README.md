@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/BonnierNews/in-app-purchase/workflows/Node.js%20CI/badge.svg)
+
 ## BonnierNews Fork
 This is a fork of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) of Voltrue's [in-app-purchase repo](https://github.com/voltrue2/in-app-purchase) which is the npm package [in-app-purchase](https://www.npmjs.com/package/in-app-purchase).
 
@@ -7,7 +9,7 @@ The original package hasn't been updated since 2019, and the FlatIO fork has int
 
 ©Nobuyori Takahashi < <voltrue2@yahoo.com> >
 
-[![Build Status](https://travis-ci.org/voltrue2/in-app-purchase.svg?branch=master)](https://travis-ci.org/voltrue2/in-app-purchase)
+[![Build Status (npm)](https://travis-ci.org/voltrue2/in-app-purchase.svg?branch=master)](https://travis-ci.org/voltrue2/in-app-purchase)
 
 A node.js module for in-app purchase (in-app billing) and subscription for Apple, Google Play, Amazon Store, Roku, and Windows.
 

@@ -19,11 +19,6 @@ charset = utf-8
 indent_style = space
 indent_size = 4
 
-# Matches the exact file .travis.yml
-[.travis.yml]
-indent_style = space
-indent_size = 2
-
 [package.json]
 indent_style = space
 indent_size = 1
