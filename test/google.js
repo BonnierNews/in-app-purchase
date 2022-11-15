@@ -81,7 +81,7 @@ describe('#### Google ####', function () {
     
     });
         
-    it('Can validate google in-app-purchase w/ auto-service detection', function (done) {
+    it('Can validate google in-app-purchase w/ auto-service detection ', function (done) {
         
         var path = process.argv[process.argv.length - 2].replace('--path=', '');
         var pkPath = process.argv[process.argv.length - 1].replace('--pk=', '');
