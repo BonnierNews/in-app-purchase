@@ -1,7 +1,7 @@
 {
  "name": "@BonnierNews/in-app-purchase",
  "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows",
- "version": "1.16.0",
+"version": "2.0.0",
  "author": {
   "name": "Nobuyori Takahashi",
   "email": "voltrue2@yahoo.com"
@@ -11,15 +11,15 @@
   "url": "https://github.com/BonnierNews/in-app-purchase.git"
  },
  "dependencies": {
-  "@xmldom/xmldom": "^0.8.3",
+  "@xmldom/xmldom": "^0.8.6",
   "fb": "^2.0.0",
   "jwt-simple": "^0.5.6",
   "request": "2.88.2",
   "urlsafe-base64": "^1.0.0",
-  "xml-crypto": "^3.0.0"
+  "xml-crypto": "^3.0.1"
  },
  "devDependencies": {
-  "eslint": "^8.25.0",
+  "eslint": "^8.27.0",
   "mocha": "^10.1.0"
  },
  "scripts": {
@@ -27,7 +27,7 @@
   "test": "make lint && make test"
  },
  "engines": {
-  "node": ">= 18.0.0"
+  "node": ">=16 <= 18"
  },
  "contributors": [],
  "keywords": [
