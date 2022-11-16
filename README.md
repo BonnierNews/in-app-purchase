@@ -25,7 +25,7 @@ Thank you for the input [maxs15](https://github.com/maxs15)
 
 ## Required node.js version
 
-`0.12.0 >=`
+`>=16 <= 18`
 
 ## Online Demo and Documention
 
