@@ -23,15 +23,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: yarn install --frozen-lockfile
-      env:
-        CI: true
-        NODE_ENV: "test"
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        env:
+          CI: true
+          NODE_ENV: "test"
 
-    - name: Run Tests
-      shell: 'script -q -e -c "bash {0}"'
-      run: yarn test
-      env:
-        NODE_ENV: "test"
-        CI: true
+      - name: Run Tests
+        shell: 'script -q -e -c "bash {0}"'
+        run: yarn test
+        env:
+          NODE_ENV: "test"
+          CI: true
