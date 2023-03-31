@@ -11,7 +11,7 @@
   "url": "https://github.com/BonnierNews/in-app-purchase.git"
  },
  "dependencies": {
-  "@xmldom/xmldom": "^0.8.6",
+  "@xmldom/xmldom": "^0.8.7",
   "fb": "^2.0.0",
   "jwt-simple": "^0.5.6",
   "request": "2.88.2",
