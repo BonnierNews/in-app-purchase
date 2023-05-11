@@ -5,6 +5,8 @@ This is a fork of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) of 
 
 The original package hasn't been updated since 2019, and the FlatIO fork has introduced some behaviour that we don't want to replicate, hence our own fork. The intention is to keep this fork up to date with security patches only.
 
+**NOTE** Facebook support has been removed from this fork.
+
 ![Logo](https://user-images.githubusercontent.com/2267361/42299566-e25ee852-8046-11e8-9cc3-a776770fcc8e.png)
 
 ©Nobuyori Takahashi < <voltrue2@yahoo.com> >
@@ -74,10 +76,6 @@ iap.config({
 
     /* Configurations for Roku */
     rokuApiKey: 'aaaa...', // this comes from Roku Developer Dashboard
-
-    /* Configurations for Facebook (Payments Lite) */
-    facebookAppId: '112233445566778',
-    facebookAppSecret: 'cafebabedeadbeefabcdef0123456789',
 
     /* Configurations all platforms */
     test: true, // For Apple and Googl Play to force Sandbox validation only
@@ -187,10 +185,6 @@ A Roku's receipt is a transaction ID string.
 
 A Windows' receipt is an XML string.
 
-### Facebook (Payments Lite)
-
-A Facebook's receipt is signed_request string of payment response.
-
 ## Validate Receipts From Multiple Applications
 
 You may feed different Google public key or Apple password etc to validate receipts of different applications with the same code:
@@ -258,19 +252,6 @@ iap.config(configObject);
 iap.setup()
   .then(() => {
     iap.validateOnce(receipt, rokuApiKeyString).then(onSuccess).catch(onError);
-  })
-  .catch((error) => {
-    // error...
-  });
-```
-
-### Facebook (Payments Lite)
-
-```javascript
-iap.config(configObject);
-iap.setup()
-  .then(() => {
-    iap.validateOnce(receipt, appAccessToken).then(onSuccess).catch(onError);
   })
   .catch((error) => {
     // error...
@@ -433,14 +414,6 @@ in-app-purchase module supports the following algorithms:
 - SHA256 digests http://www.w3.org/2001/04/xmlenc#sha256
 
 - SHA512 digests http://www.w3.org/2001/04/xmlenc#sha512
-
-## Facebook Order Fulfillment and Signed Request Parsing
-
-- Facebook Payments Order Fulfillment: https://developers.facebook.com/docs/games_payments/fulfillment#orderfulfillment
-
-- Facebook Signed Request Parsing: https://developers.facebook.com/docs/games/gamesonfacebook/login#parsingsr
-
-- **NOTE:** Payments `Lite` does not support subscription.
 
 ## HTTP Request Configurations
 
