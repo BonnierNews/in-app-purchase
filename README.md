@@ -5,7 +5,7 @@ This is a fork of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) of 
 
 The original package hasn't been updated since 2019, and the FlatIO fork has introduced some behaviour that we don't want to replicate, hence our own fork. The intention is to keep this fork up to date with security patches only.
 
-**NOTE** Facebook support has been removed from this fork.
+**NOTE** As of v3.0.0, Facebook support has been removed from this fork.
 
 ![Logo](https://user-images.githubusercontent.com/2267361/42299566-e25ee852-8046-11e8-9cc3-a776770fcc8e.png)
 
