@@ -74,7 +74,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@xmldom/xmldom@^0.8.5", "@xmldom/xmldom@^0.8.6":
+"@xmldom/xmldom@0.8.7", "@xmldom/xmldom@^0.8.6":
   version "0.8.7"
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.7.tgz#8b1e39c547013941974d83ad5e9cf5042071a9a0"
   integrity sha512-sI1Ly2cODlWStkINzqGrZ8K6n+MTSbAeQnAipGyL+KZCXuHaRlj2gyyy8B/9MvsFFqN7XHryQnB2QwhzvJXovg==
@@ -1228,12 +1228,12 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-xml-crypto@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-3.0.1.tgz#1d4852b040e80413d8058e2917eddd9f17a00b8b"
-  integrity sha512-7XrwB3ujd95KCO6+u9fidb8ajvRJvIfGNWD0XLJoTWlBKz+tFpUzEYxsN+Il/6/gHtEs1RgRh2RH+TzhcWBZUw==
+xml-crypto@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-3.1.0.tgz#6baeb46c0f3687a9fd8afd4c7be71c6e6e9accc4"
+  integrity sha512-GPDprzBeCvn2ByTzeX+DOXbQ7V2IHmE6H1WZkrR+5LPrRQrwwYC9RoCYZ2++y2yJTYzRre1qY4gqNjmJLKdQ6Q==
   dependencies:
-    "@xmldom/xmldom" "^0.8.5"
+    "@xmldom/xmldom" "0.8.7"
     xpath "0.0.32"
 
 xpath@0.0.32:
