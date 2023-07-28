@@ -18,7 +18,7 @@
     "xml-crypto": "^3.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
+    "eslint": "^8.46.0",
     "mocha": "^10.1.0"
   },
   "overrides": {
