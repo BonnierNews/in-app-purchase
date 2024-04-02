@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "eslint": "^8.27.0",
-    "mocha": "^10.1.0"
+    "mocha": "^10.4.0"
   },
   "overrides": {
     "tough-cookie": "^4.1.3"
