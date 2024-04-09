@@ -282,7 +282,7 @@ describe('#### Windows ####', function () {
             iap.validate(iap.WINDOWS, 'fake-receipt', function (error, response) {
                 assert(error);
                 assert(response.status);
-                                                                assert(response.message);
+                assert(response.message);
                 assert.equal(iap.isValidated(response), false);
                 done();
             });
