@@ -27,7 +27,7 @@ witest:
 	npx mocha test/windows.js -R spec -b --timeout=5000 --path=false
 
 .PHONY: fatest
-witest:
+fatest:
 	npx mocha test/facebook.js -R spec -b --timeout=5000 --appAccessToken=false --path=false
 
 .PHONY: test-apple
