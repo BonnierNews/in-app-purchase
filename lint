@@ -8,7 +8,7 @@ lint(__dirname + '/lib/', __dirname + '/package.json', [], function (error) {
     }
     lint(__dirname + '/index.js', __dirname + '/package.json', [], function (error) {
         if (error) {
-          console.error("Error: ", error);
+            console.error("Error: ", error);
             process.exit(1);
         }
     });
