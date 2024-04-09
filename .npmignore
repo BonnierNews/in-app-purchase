@@ -1,6 +1,6 @@
 test
 logo
 .editorconfig
-.github
+.travis.yml
 lint
 scripts
