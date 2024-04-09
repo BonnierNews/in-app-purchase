@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x,18.x]
+        node-version: [16.x, 18.x, 20.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -24,14 +24,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
         env:
           CI: true
           NODE_ENV: "test"
 
       - name: Run Tests
-        shell: 'script -q -e -c "bash {0}"'
-        run: yarn test
+        run: npm test
         env:
           NODE_ENV: "test"
           CI: true
