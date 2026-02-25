@@ -1,6 +1,12 @@
 ![Node.js CI](https://github.com/BonnierNews/in-app-purchase/workflows/Node.js%20CI/badge.svg)
 
 ## BonnierNews Fork
+
+### Deprecated and archived 2026-02-25
+As of this date the lib is no longer used internally and therefore this fork will no longer be maintained at all.
+
+
+
 This is a fork of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) of Voltrue's [in-app-purchase repo](https://github.com/voltrue2/in-app-purchase) which is the npm package [in-app-purchase](https://www.npmjs.com/package/in-app-purchase).
 
 The original package hasn't been updated since 2019, and the FlatIO fork has introduced some behaviour that we don't want to replicate, hence our own fork. The intention is to keep this fork up to date with security patches only.
